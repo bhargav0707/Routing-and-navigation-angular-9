@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { NaseerComponent } from './naseer/naseer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
     ContactComponent,
     ProductsComponent,
     ProductDetailsComponent,
-    NoPageFoundComponent
+    NoPageFoundComponent,
+    NaseerComponent
   ],
   imports: [
     BrowserModule,
